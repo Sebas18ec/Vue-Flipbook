@@ -30,14 +30,30 @@
   
   <style>
   /* Estilos personalizados para tu componente Flipbook */
-  .flipbook-container {
-    width: 150%;
-    height: 150%;
+  .flipbook-container.flipbook {
+    width: 900px;
+    height: 450px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: scale(4) !important;
+    position: relative;
+    /*flex-direction: column;*/
+    /*align-items: center;
+    justify-content: center;    */
   }
-  </style>
+
+  .flipbook-container.flipbook>div{
+    margin: 0 auto;
+  }
+
+  .flipbook-container.flipbook>div>div{
+    width: 900px;
+    height: 450px;
+  }
+
+  
+  
+/*.flipbook {
+  width: 90vw;
+  height: 90vh;
+}*/
+</style>
   

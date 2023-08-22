@@ -8,7 +8,7 @@
        'https://www.futbolecuador.com/imagenes/images/thumb640/0b3ef29091998279d52312bead978a58.jpeg',
        'https://www.futbolecuador.com/imagenes/images/thumb640/81e5075161e2305a6818c4d799a82b60.jpeg',
        'https://www.futbolecuador.com/imagenes/images/thumb640/71e795b2a8e6976ec86fc31fdde049c7.jpg',
-       ]"></flipbook>
+       ]" :zooms="2" :singlePage="true" :centering='true'></flipbook>
   </div>
 </template>
 
@@ -28,7 +28,7 @@ export default {
 <style>
 
 .flipbook {
-  width: 110vw;
-  height: 120vh;
+  width: 90vw;
+  height: 90vh;
 }
 </style>
